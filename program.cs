@@ -1,22 +1,59 @@
-﻿namespace Programming_practice
+﻿
+namespace ValidationTask
 {
-    internal class Program
-    {
+    internal class Program    {
         static void Main(string[] args)
         {
-            int NumOfPeople = 0;
-            Console.WriteLine("How many people?");
-            NumOfPeople = Convert.ToInt32(Console.ReadLine());
-            int cost = NumOfPeople * 15;
-            if (NumOfPeople > 5) 
+            int option = 0;
+            while (option != 8)
             {
-                cost = cost - 5;
-                Console.WriteLine("The total cost come to " + cost);
-            }
-            else
-            {
-                Console.WriteLine("The total cost come to £" + cost);
-            }
+
+                Console.WriteLine("===============================");
+
+                Console.WriteLine("AREA CALCULATOR");
+
+                Console.WriteLine("===============================");
+
+                Console.WriteLine("1. Circle");
+
+                Console.WriteLine("2. Rectangle");
+
+                Console.WriteLine("3. Triangle");
+
+                Console.WriteLine("4. Trapezoid");
+
+                Console.WriteLine("5. Parallelogram");
+
+                Console.WriteLine("6. Square");
+
+                Console.WriteLine("7. Ellipse");
+
+                Console.WriteLine("8. Exit");
+
+                Console.WriteLine("===============================");
+
+                
+                option = Convert.ToInt32(Console.ReadLine());
+
+
+                if (option == 1) { }
+
+                else if (option == 2) { }
+
+                else if (option == 3) { }
+
+                else if (option == 4) { }
+
+                else if (option == 5) { }
+
+                else if (option == 6) { }
+
+                else if (option == 7) { }
+
+            }    
+
         }
+
     }
-} 
+
+}
